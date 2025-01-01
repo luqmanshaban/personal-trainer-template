@@ -9,10 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        prim: "#064BB4",
+        btn: "#BCFF5E",
+        wh: "#FFFFFF",
+        bl: "#1B1B1D",
+        gr: "#C1C1C3",
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light", "dark", "aqua"],
+  },
 } satisfies Config;

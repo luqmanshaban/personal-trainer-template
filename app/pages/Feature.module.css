@@ -1,0 +1,6 @@
+
+.img {
+    background-image: url('/app/images/workout1.jpg');
+    background-position: center;
+    background-size: contain;
+}
